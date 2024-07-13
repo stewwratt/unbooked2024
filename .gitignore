@@ -1,1 +1,8 @@
+
 .env
+# Ignore node_modules
+node_modules/
+# Ignore Docker-related files
+docker-compose.yml
+# Ignore Helm charts generated files
+charts/*
