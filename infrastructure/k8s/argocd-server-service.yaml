@@ -5,7 +5,6 @@ metadata:
   namespace: argocd
 spec:
   type: LoadBalancer
-  loadBalancerIP: 35.197.164.103
   ports:
     - port: 80
       targetPort: 8080
